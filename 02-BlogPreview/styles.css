@@ -51,7 +51,7 @@ body {
   border-radius: 10px;
 }
 
-main {
+.container {
   margin: var(--spacing-300) 0;
 }
 
@@ -68,12 +68,12 @@ main {
   color: var(--gray-950);
 }
 
-h3 {
+h1 {
   font: var(--text-preset-1);
   color: var(--gray-950);
 }
 
-h3:hover {
+h1:hover {
   color: var(--yellow);
   cursor: pointer;
 }
@@ -84,7 +84,7 @@ h3:hover {
 }
 
 .date,
-h3,
+h1,
 .preview {
   margin: 0;
   padding-top: var(--spacing-150);
