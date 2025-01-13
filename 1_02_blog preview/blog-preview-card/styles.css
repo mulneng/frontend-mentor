@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  /*color*/
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --white: #fff;
+
+  /*font*/
+  --text-preset-1: 800 24px/150% Figtree, sans-serif;
+  --text-preset-2: 500 16px/150% Figtree, sans-serif;
+  --text-preset-3: 500 14px/150% Figtree, sans-serif;
+  --text-preset-4: 800 14px/150% Figtree, sans-serif;
+
+  /*spacing*/
+  --spacing-300: 24px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Figtree, sans-serif;
+}
+
+body {
+  background-color: var(--yellow);
+  margin: 0;
+  height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 384px;
+  padding: var(--spacing-300);
+  border: solid 1px var(--gray-950);
+  box-shadow: 8px 8px 0 var(--gray-950);
+}
+
+.content-cover {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main {
+  margin: var(--spacing-300) 0;
+}
+
+.headtag {
+  background-color: var(--yellow);
+  font: var(--text-preset-4);
+  color: var(--gray-950);
+  padding: var(--spacing-50) var(--spacing-150);
+  border-radius: var(--spacing-50);
+}
+
+.date {
+  font: var(--text-preset-3);
+  color: var(--gray-950);
+}
+
+h3 {
+  font: var(--text-preset-1);
+  color: var(--gray-950);
+}
+
+h3:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.preview {
+  font: var(--text-preset-2);
+  color: var(--gray-500);
+}
+
+.date,
+h3,
+.preview {
+  margin: 0;
+  padding-top: var(--spacing-150);
+}
+
+.profile {
+  margin: 0;
+  display: inline-flex;
+  gap: var(--spacing-150);
+}
+
+.profile-name {
+  display: inherit;
+  margin: auto 0;
+  font: var(--text-preset-4);
+}
+
+.profile-photo {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+@media (max-width: 375px) {
+  :root {
+    --text-preset-1: 800 20px/150% Figtree, sans-serif;
+    --text-preset-2: 500 14px/150% Figtree, sans-serif;
+    --text-preset-3: 500 12px/150% Figtree, sans-serif;
+    --text-preset-4: 800 12px/150% Figtree, sans-serif;
+  }
+
+  .card {
+    max-width: 327px;
+  }
+}

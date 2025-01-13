@@ -1,0 +1,74 @@
+:root {
+  /*Color*/
+  --white: hsl(0, 0%, 100%);
+  --slate300: hsl(212, 45%, 89%);
+  --slate500: hsl(216, 15%, 48%);
+  --slate900: hsl(218, 44%, 22%);
+
+  /* Font Sizes */
+  --font-size-1: 22px;
+  --font-size-2: 15px;
+
+  /* Spacing */
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: var(--slate300);
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 320px;
+  background-color: var(--white);
+  padding-top: var(--spacing-200);
+  padding-bottom: var(--spacing-500);
+  border-radius: 20px;
+
+  box-shadow: 0 25px 25px rgb(0, 0, 0, 0.05);
+}
+
+.card {
+  width: 288px;
+  gap: var(--spacing-300);
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text {
+  width: calc(100% - 32px);
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--font-size-1);
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0px;
+  margin: 0;
+  margin-bottom: var(--spacing-200);
+}
+
+p {
+  font-size: var(--font-size-2);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
