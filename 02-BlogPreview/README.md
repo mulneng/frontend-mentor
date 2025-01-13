@@ -19,8 +19,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor-qrcode/]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor-qrcode/]
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/02-BlogPreview]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/02-BlogPreview/]
 
 ## My process
 
