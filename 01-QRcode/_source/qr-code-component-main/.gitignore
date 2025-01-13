@@ -4,6 +4,8 @@
 #####################################################
 *.sketch
 *.fig
+01-QRcode/_source/
+
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
