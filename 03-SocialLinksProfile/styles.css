@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /*color*/
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey700: hsl(0, 0%, 20%);
+  --grey800: hsl(0, 0%, 12%);
+  --grey900: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+  background-color: var(--grey900);
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: inherit;
+}
+
+.profile {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: var(--grey800);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 384px;
+  width: 100%;
+}
+
+img {
+  border-radius: 50%;
+  width: 88px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.point-text {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 304px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--grey700);
+  border-radius: 8px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  letter-spacing: 0;
+  transition: 0.35s;
+}
+
+a:hover {
+  letter-spacing: 3px;
+  transition: 0.35s;
+
+  background-color: var(--green);
+  color: var(--grey900);
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    padding: 24px;
+  }
+
+  .links {
+    width: 100%;
+  }
+}
