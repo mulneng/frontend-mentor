@@ -87,7 +87,8 @@ a {
   transition: 0.35s;
 }
 
-a:hover {
+a:hover,
+a:focus {
   letter-spacing: 0.25rem;
   transition: 0.35s;
 
@@ -95,12 +96,17 @@ a:hover {
   color: var(--grey900);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .profile {
     padding: 1.5rem;
+    min-width: 100%;
   }
 
   .links {
-    width: 100%;
+    width: 15rem;
   }
-}
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
