@@ -60,3 +60,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/04-RecipePage]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/04-RecipePage/]
+
+## 05 ProductPreviewCard
+
+### 05 Screenshot
+
+![](./05-ProductPreviewCard/screenshot.png)
+
+### 05 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/05-ProductPreviewCard]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/05-ProductPreviewCard]

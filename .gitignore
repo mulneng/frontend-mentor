@@ -4,6 +4,7 @@
 #####################################################
 *.sketch
 *.fig
+*.scss
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
@@ -22,3 +23,4 @@
 02-BlogPreview/_source/
 03-SocialLinksProfile/_source/
 04-RecipePage/_source/
+05-ProductPreviewCard/_source/
