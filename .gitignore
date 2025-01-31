@@ -1,0 +1,28 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+*.scss
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
+# Avoid accidental upload of source files
+#####################################################
+
+01-QRcode/_source/
+02-BlogPreview/_source/
+03-SocialLinksProfile/_source/
+04-RecipePage/_source/
+05-ProductPreviewCard/_source/
+06-FourCardFeatureSection/_source/
+07-TestimonialsGridSection/_source/
