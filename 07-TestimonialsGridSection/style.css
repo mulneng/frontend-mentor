@@ -59,7 +59,9 @@ body {
 main {
   display: grid;
   gap: 3rem;
+  grid-row-gap: 2.4rem;
   padding: 7rem 2.4rem;
+  max-width: 1134px;
 }
 
 .card-container {
@@ -82,6 +84,9 @@ main {
 
 .purple {
   background-color: hsl(263, 55%, 52%);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 356px 0px;
 }
 
 .grey {
@@ -148,6 +153,7 @@ main {
   main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    padding: 7rem 2.4rem;
   }
   .purple {
     grid-column: 1/span 2;
