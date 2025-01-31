@@ -20,8 +20,11 @@ Challenges from Frontend Mentor
   - [05 Screenshot](#05-screenshot)
   - [05 Links](#05-links)
 - [06 FourCardFeatureSection](#06-fourcardfeaturesection)
-  - [06 Screenshot](#04-screenshot)
-  - [06 Links](#04-links)
+  - [06 Screenshot](#06-screenshot)
+  - [06 Links](#06-links)
+- [07 TestimonialsGridSection](#07-testimonialsgridsection)
+  - [07 Screenshot](#07-screenshot)
+  - [07 Links](#07-links)
 
 ## 01 QRcode
 
@@ -88,3 +91,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/06-FourCardFeatureSection]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/06-FourCardFeatureSection]
+
+## 07 TestimonialsGridSection
+
+### 07 Screenshot
+
+![](./07-TestimonialsGridSection/screenshot.png)
+
+### 07 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/07-TestimonialsGridSection]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/07-TestimonialsGridSection]
