@@ -16,6 +16,12 @@ Challenges from Frontend Mentor
 - [04 RecipePage](#04-recipepage)
   - [04 Screenshot](#04-screenshot)
   - [04 Links](#04-links)
+- [05 ProductPreviewCard](#05-productpreviewcard)
+  - [05 Screenshot](#05-screenshot)
+  - [05 Links](#05-links)
+- [06 FourCardFeatureSection](#06-fourcardfeaturesection)
+  - [06 Screenshot](#04-screenshot)
+  - [06 Links](#04-links)
 
 ## 01 QRcode
 
@@ -60,3 +66,25 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/04-RecipePage]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/04-RecipePage/]
+
+## 05 ProductPreviewCard
+
+### 05 Screenshot
+
+![](./05-ProductPreviewCard/screenshot.png)
+
+### 05 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/05-ProductPreviewCard]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/05-ProductPreviewCard]
+
+## 06 FourCardFeatureSection
+
+### 06 Screenshot
+
+![](./06-FourCardFeatureSection/screenshot.png)
+
+### 06 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/06-FourCardFeatureSection]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/06-FourCardFeatureSection]
