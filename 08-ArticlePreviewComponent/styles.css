@@ -106,9 +106,7 @@ section p {
   color: var(--GrayishBlue);
 }
 
-button {
-  z-index: 1;
-}
+
 
 button.pressed {
   background-color: var(--DesaturatedDarkBlue);
@@ -123,6 +121,7 @@ button {
   border-radius: 100%;
   display: grid;
   place-content: center;
+  z-index: 1;
 }
 
 .tooltip.display {
