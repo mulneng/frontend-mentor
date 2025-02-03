@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Article Preview Component</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img src="./images/drawers.jpg" alt="cover image" class="cover-image" />
+        <section>
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="profile">
+            <div class="profile-left">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="profile image of michelle"
+                class="profile-image"
+              />
+              <div class="title">
+                <div class="name">
+                  Michelle Appleton <br />
+                  <span class="date">28 Jun 2020</span>
+                </div>
+              </div>
+            </div>
+            <div class="tooltip">
+              <div class="tooltip-content">
+                <span>SHARE</span>
+                <img src="./images/icon-facebook.svg" alt="facebook icon" />
+                <img src="./images/icon-twitter.svg" alt="twitter icon" />
+                <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
+              </div>
+              <div class="triangle"></div>
+            </div>
+            <button type="button" id="btn-share">
+              <div class="profile-right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+                  <path
+                    d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script>
+    const buttonShare = document.querySelector("#btn-share");
+    const toolTip = document.querySelector(".tooltip");
+    const buttonPressed = document.querySelector("button");
+
+    function toggleHandler() {
+      toolTip.classList.toggle("display");
+      buttonPressed.classList.toggle("pressed");
+    }
+
+    buttonShare.addEventListener("click", toggleHandler);
+  </script>
+</html>
