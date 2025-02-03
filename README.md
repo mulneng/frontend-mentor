@@ -25,6 +25,9 @@ Challenges from Frontend Mentor
 - [07 TestimonialsGridSection](#07-testimonialsgridsection)
   - [07 Screenshot](#07-screenshot)
   - [07 Links](#07-links)
+- [08 ArticlePreviewComponent](#08-articlepreviewcomponent)
+  - [08 Screenshot](#08-screenshot)
+  - [08 Links](#08-links)
 
 ## 01 QRcode
 
@@ -102,3 +105,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/07-TestimonialsGridSection]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/07-TestimonialsGridSection]
+
+## 08 ArticlePreviewComponent
+
+### 08 Screenshot
+
+![](./08-ArticlePreviewComponent/screenshot.png)
+
+### 08 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/08-ArticlePreviewComponent]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/08-ArticlePreviewComponent]

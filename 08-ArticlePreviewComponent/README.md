@@ -37,4 +37,4 @@ CSS
 - Responsive layout with grid system
 
 JS
-- aaa
+- Toggle document elements

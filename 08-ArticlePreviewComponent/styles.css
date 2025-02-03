@@ -133,7 +133,7 @@ button {
   display: none;
   position: absolute;
   left: calc(50% - 163.5px);
-  bottom: calc(50% - 252px);
+  bottom: calc(50% - 255px);
 }
 
 .tooltip-content {
