@@ -71,7 +71,7 @@ main {
 }
 
 section {
-  padding: 3.6rem 3.2rem 2rem;
+  margin: 3.6rem 3.2rem 2rem;
 }
 section h1 {
   font-size: 1.6rem;
@@ -106,7 +106,9 @@ section p {
   color: var(--GrayishBlue);
 }
 
-
+button {
+  z-index: 2;
+}
 
 button.pressed {
   background-color: var(--DesaturatedDarkBlue);
@@ -116,12 +118,11 @@ button.pressed {
 button {
   background-color: var(--LightGrayishBlue);
   fill: var(--VeryDarkGrayishBlue);
-  width: 32px;
-  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
   border-radius: 100%;
   display: grid;
   place-content: center;
-  z-index: 1;
 }
 
 .tooltip.display {
@@ -131,8 +132,7 @@ button {
 .tooltip {
   display: none;
   position: absolute;
-  left: calc(50% - 163.5px);
-  bottom: calc(50% - 255px);
+  z-index: 1;
 }
 
 .tooltip-content {
@@ -143,8 +143,8 @@ button {
   align-items: center;
   justify-content: flex-start;
   gap: 1.6rem;
-  width: 327px;
-  height: 72px;
+  width: 100%;
+  min-height: 72px;
   border-radius: 0 0 10px 10px;
   padding: 1.6rem 3.2rem;
 }
@@ -162,7 +162,7 @@ button {
     border-radius: 10px 0 0 10px;
   }
   section {
-    padding: 3.2rem 4rem;
+    margin: 3.2rem 4rem;
   }
   section h1 {
     font-size: 2rem;

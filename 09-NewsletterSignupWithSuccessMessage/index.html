@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Newsletter Signup With Success Message</title>
+  </head>
+  <body>
+    <main>
+      <!-- Sign-up form start -->
+      <section class="main__form">
+        <picture class="main__picture-header">
+          <source
+            media="(min-width: 900px)"
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+          />
+          <img
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt="illustration of signup"
+          />
+        </picture>
+        <div class="form__container">
+          <h1 class="form__heading">Stay updated!</h1>
+          <p class="form__description">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="form__list">
+            <li class="list__items">
+              Product discovery and building what matters
+            </li>
+            <li class="list__items">
+              Measuring to ensure updates are a success
+            </li>
+            <li class="list__items">And much more!</li>
+          </ul>
+          <form class="form__section" novalidate>
+            <div class="help-message">
+              <label for="email">Email address</label>
+              <div class="error-message-container">
+                <span>Valid email required</span>
+              </div>
+            </div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="email"
+              placeholder="email@company.com"
+            />
+            <button type="submit" class="submit" id="submit">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Sign-up form end -->
+      <!-- Success message start -->
+      <section class="main__success-state">
+        <div class="container__success-state">
+          <h1 class="success-state__heading">Thanks for subscribing!</h1>
+          <p class="success-state__description">
+            A confirmation email has been sent to
+            <strong>ash@loremcompany.com.</strong> Please open it and click the
+            button inside to confirm your subscription.
+          </p>
+          <button class="success-state__dismiss" id="dismiss">
+            Dismiss message
+          </button>
+        </div>
+      </section>
+      <!-- Success message end -->
+    </main>
+  </body>
+</html>
