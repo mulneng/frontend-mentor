@@ -138,7 +138,7 @@ Challenges from Frontend Mentor
 
 ### 10 Screenshot
 
-![](./09-NewsletterSignupWithSuccessMessage/screenshot.png)
+![](./10-TimeTrackingDashboard/screenshot.png)
 
 ### 10 Links
 
