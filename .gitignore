@@ -20,10 +20,5 @@
 # Avoid accidental upload of source files
 #####################################################
 
-01-QRcode/_source/
-02-BlogPreview/_source/
-03-SocialLinksProfile/_source/
-04-RecipePage/_source/
-05-ProductPreviewCard/_source/
-06-FourCardFeatureSection/_source/
-07-TestimonialsGridSection/_source/
+*script_original.js
+*_source

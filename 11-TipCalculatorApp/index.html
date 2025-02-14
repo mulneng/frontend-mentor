@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="logo image" class="logo of splitter" />
+    </header>
+    <main>
+      <div class="container__all">
+        <div class="container__calculator">
+          <form>
+            <fieldset class="calculator__bill">
+              <legend>Bill</legend>
+              <input type="number" id="input__bill" placeholder="0" />
+            </fieldset>
+            <fieldset class="calculator__tip">
+              <legend>Select Tip %</legend>
+              <div class="tip__buttons">
+                <button type="button" class="tip__button" data-percent="5">
+                  5%
+                </button>
+                <button type="button" class="tip__button" data-percent="10">
+                  10%
+                </button>
+                <button type="button" class="tip__button" data-percent="15">
+                  15%
+                </button>
+                <button type="button" class="tip__button" data-percent="25">
+                  25%
+                </button>
+                <button type="button" class="tip__button" data-percent="50">
+                  50%
+                </button>
+                <input type="number" id="tip__custom" placeholder="Custom" />
+              </div>
+            </fieldset>
+            <fieldset class="calculator__poeple">
+              <legend>Number of People</legend>
+              <input type="number" id="input__people" placeholder="0" />
+            </fieldset>
+          </form>
+        </div>
+        <div class="container__result">
+          <div class="result__group">
+            <div class="result__item">
+              <p>
+                Tip Amount
+                <span>/ person</span>
+              </p>
+              <h1 id="tip__amount">0.00</h1>
+            </div>
+            <div class="result__item">
+              <p>
+                Total
+                <span>/ person</span>
+              </p>
+              <h1 id="tip__total">0.00</h1>
+            </div>
+          </div>
+          <button type="button" id="button__reset" class="disabled">
+            Reset
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
