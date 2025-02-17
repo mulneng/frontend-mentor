@@ -127,6 +127,7 @@ section p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 0.5em;
 }
 .buttons-container button {
   background-color: hsl(213, 19%, 18%);
@@ -136,7 +137,7 @@ section p {
   border-radius: 26px;
   border: none;
 }
-.buttons-container button:hover .buttons-container button:focus {
+.buttons-container button:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(213, 19%, 18%);
 }
@@ -157,7 +158,7 @@ section p {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.button-submit:hover .button-submit:focus {
+.button-submit:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(213, 19%, 18%);
 }
