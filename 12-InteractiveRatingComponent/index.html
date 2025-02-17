@@ -15,8 +15,8 @@
   <body>
     <main>
       <!-- Rating state start -->
-      <section class="container__rating">
-        <div class="container__icon">
+      <section class="rating-container">
+        <div class="icon-container">
           <img src="./images/icon-star.svg" alt="image of star icon" />
         </div>
         <div class="hbox(32)"></div>
@@ -27,21 +27,54 @@
           is appreciated to help us improve our offering!
         </p>
         <div class="hbox(24)"></div>
-        <form action="" method="get" class="form-buttons">
-          <div class="container__buttons">
-            <button type="button" data-rate="1" class="button-rate">1</button>
-            <button type="button" data-rate="2" class="button-rate">2</button>
-            <button type="button" data-rate="3" class="button-rate">3</button>
-            <button type="button" data-rate="4" class="button-rate">4</button>
-            <button type="button" data-rate="5" class="button-rate">5</button>
-          </div>
-          <div class="hbox(32)"></div>
-          <button id="submitButton" class="button-submit">Submit</button>
-        </form>
+        <div class="buttons-container" aria-labelledby="rating-label">
+          <button
+            type="button"
+            data-rate="1"
+            class="button-rate"
+            aria-label="Rate 1 out of 5"
+          >
+            1
+          </button>
+          <button
+            type="button"
+            data-rate="2"
+            class="button-rate"
+            aria-label="Rate 2 out of 5"
+          >
+            2
+          </button>
+          <button
+            type="button"
+            data-rate="3"
+            class="button-rate"
+            aria-label="Rate 3 out of 5"
+          >
+            3
+          </button>
+          <button
+            type="button"
+            data-rate="4"
+            class="button-rate"
+            aria-label="Rate 4 out of 5"
+          >
+            4
+          </button>
+          <button
+            type="button"
+            data-rate="5"
+            class="button-rate"
+            aria-label="Rate 5 out of 5"
+          >
+            5
+          </button>
+        </div>
+        <div class="hbox(32)"></div>
+        <button id="submitButton" class="button-submit">Submit</button>
       </section>
       <!-- Thank you state start -->
-      <section class="container__thanks hidden">
-        <div class="container__illust">
+      <section class="thanks-container hidden">
+        <div class="illust-container">
           <img
             src="./images/illustration-thank-you.svg"
             alt="illustration of completed statement"

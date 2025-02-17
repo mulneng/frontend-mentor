@@ -103,7 +103,7 @@ main {
   max-width: 412px;
 }
 
-section .container__icon {
+section .icon-container {
   background-color: hsl(213, 19%, 18%);
   border-radius: 100%;
   width: 48px;
@@ -123,12 +123,12 @@ section p {
   line-height: 1.6;
 }
 
-.container__buttons {
+.buttons-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.container__buttons button {
+.buttons-container button {
   background-color: hsl(213, 19%, 18%);
   color: hsl(217, 12%, 63%);
   height: 51px;
@@ -136,11 +136,11 @@ section p {
   border-radius: 26px;
   border: none;
 }
-.container__buttons button:hover {
+.buttons-container button:hover .buttons-container button:focus {
   background-color: hsl(0, 0%, 100%);
   color: hsl(213, 19%, 18%);
 }
-.container__buttons .active {
+.buttons-container .active {
   background-color: hsl(25, 97%, 53%);
   color: hsl(213, 19%, 18%);
 }
@@ -157,18 +157,18 @@ section p {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.button-submit:hover {
+.button-submit:hover .button-submit:focus {
   background-color: hsl(0, 0%, 100%);
   color: hsl(213, 19%, 18%);
 }
 
-.container__thanks {
+.thanks-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.container__thanks .selectedResult {
+.thanks-container .selectedResult {
   background-color: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
   padding: 0.25em 1.25em 0.5em;

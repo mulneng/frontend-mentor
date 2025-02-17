@@ -1,5 +1,5 @@
-const sectionRating = document.querySelector(".container__rating");
-const sectionThanks = document.querySelector(".container__thanks");
+const sectionRating = document.querySelector(".rating-container");
+const sectionThanks = document.querySelector(".thanks-container");
 const selectedResult = document.querySelector(".selectedResult");
 const ratingButtons = document.querySelectorAll(".button-rate");
 const submitButton = document.querySelector("#submitButton");
