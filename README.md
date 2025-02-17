@@ -34,6 +34,12 @@ Challenges from Frontend Mentor
 - [10 TimeTrackingDashboard](#10-timetrackingdashboard)
   - [10 Screenshot](#10-screenshot)
   - [10 Links](#10-links)
+- [11 TipCalculatorApp](#11-tipcalculatorapp)
+  - [11 Screenshot](#11-screenshot)
+  - [11 Links](#11-links)
+- [12 InteractiveRatingComponent](#12-interactiveratingcomponent)
+  - [12 Screenshot](#12-screenshot)
+  - [12 Links](#12-links)
 
 ## 01 QRcode
 
@@ -155,3 +161,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/11-TipCalculatorApp]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/11-TipCalculatorApp]
+
+## 12 InteractiveRatingComponent
+
+### 12 Screenshot
+
+![](./12-InteractiveRatingComponent/screenshot.png)
+
+### 12 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/12-InteractiveRatingComponent]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/12-InteractiveRatingComponent]
