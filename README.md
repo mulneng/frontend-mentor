@@ -40,6 +40,9 @@ Challenges from Frontend Mentor
 - [12 InteractiveRatingComponent](#12-interactiveratingcomponent)
   - [12 Screenshot](#12-screenshot)
   - [12 Links](#12-links)
+- [13 FaqAccordion](#13-faqaccordion)
+  - [13 Screenshot](#13-screenshot)
+  - [13 Links](#13-links)
 
 ## 01 QRcode
 
@@ -172,3 +175,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/12-InteractiveRatingComponent]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/12-InteractiveRatingComponent]
+
+## 13 FaqAccordion
+
+### 13 Screenshot
+
+![](./13-FaqAccordion/screenshot.png)
+
+### 13 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/13-FaqAccordion]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/13-FaqAccordion]
