@@ -1,0 +1,183 @@
+/*Reset*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+video {
+  height: auto;
+  max-inline-size: 100%;
+}
+
+legend {
+  padding: 0;
+  display: table;
+}
+
+fieldset {
+  border: 0;
+  padding: 0.01em 0 0 0;
+  margin: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
+/*Styling*/
+body {
+  background-color: hsl(275, 100%, 97%);
+  background-image: url(./images/background-pattern-mobile.svg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: "Work Sans", serif;
+  padding: 1.5em;
+}
+
+section {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 1.5em;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.title img {
+  max-width: 24px;
+}
+.title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+}
+
+.list:first-child {
+  padding: 0 0 1em 0;
+}
+
+.list:last-child {
+  padding: 1em 0 0 0;
+}
+
+.list:not(:last-child) {
+  border-bottom: 2px solid hsl(275, 100%, 97%);
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.container-title p {
+  font-weight: 600;
+}
+
+.container-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 200ms ease;
+}
+.container-content .text-content {
+  padding: 1em 0;
+  color: hsl(292, 16%, 49%);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/*Responsive layout*/
+@media (min-width: 640px) {
+  body {
+    background-image: url(./images/background-pattern-desktop.svg);
+    background-size: 120%;
+  }
+  section {
+    max-width: 640px;
+  }
+  .title img {
+    max-width: 32px;
+  }
+  .title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
