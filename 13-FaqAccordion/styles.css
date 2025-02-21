@@ -169,10 +169,9 @@ section {
 @media (min-width: 640px) {
   body {
     background-image: url(./images/background-pattern-desktop.svg);
-    background-size: 120%;
   }
   section {
-    max-width: 640px;
+    max-width: 560px;
   }
   .title img {
     max-width: 32px;
