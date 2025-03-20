@@ -1,0 +1,70 @@
+:root {
+  --bs-border-color-focus: #198754;
+  --bs-form-control-box-shadow: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  font-family: 'Karla', sans-serif;
+}
+.container {
+  max-width: 45rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.form-label::after {
+  content: '*';
+  margin-left: 4px;
+  color: var(--bs-success);
+}
+
+.container {
+  justify-items: center;
+  align-content: center;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-width: 3px;
+}
+
+.radio-container:has(.form-check-input) {
+  background-color: var(--bs-body-bg);
+}
+
+.radio-container:has(.form-check-input:checked) {
+  background-color: var(--bs-success-bg-subtle);
+  border-width: 3px;
+}
+
+.form-check-input:checked {
+  box-shadow: none;
+  outline: none;
+  background-color: #198754;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: black;
+}
+
+#radio-group.is-invalid {
+  border: 1px solid var(--bs-danger);
+  padding: 10px;
+  border-radius: 5px;
+}
+#radio-group .invalid-feedback {
+  display: block;
+}
