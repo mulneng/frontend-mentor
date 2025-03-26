@@ -1,0 +1,252 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+  flex-shrink: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Custom Styling */
+:root {
+  /* color */
+  --color-primary: hsl(5, 85%, 63%);
+  --color-secondary: hsl(35, 77%, 62%);
+  --color-white: hsl(36, 100%, 99%);
+  --color-grayish-blue: hsl(233, 8%, 79%);
+  --color-dark-grayish-blue: hsl(236, 13%, 42%);
+  --color-very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  object-fit: cover;
+  max-inline-size: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-very-dark-blue);
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.15rem;
+  border: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+
+.text-sub-light {
+  color: var(--color-grayish-blue);
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.text-sub-dark {
+  color: var(--color-dark-grayish-blue);
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.news-title {
+  color: var(--color-white);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.article-title {
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+/* Hover */
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.news-title:hover {
+  color: var(--color-secondary);
+}
+
+.article-title:hover {
+  color: var(--color-primary);
+}
+
+/* Mobile Navbar */
+.mobile-menu-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.4s;
+  visibility: hidden;
+}
+
+.mobile-menu-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.4s;
+  transform: translateX(500px);
+  background-color: var(--color-white);
+  width: 70%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.mobile-menu {
+  margin-left: 2rem;
+  margin-top: 6rem;
+  font-size: 1.4rem;
+}
+
+.is-active {
+  transform: translateX(0px);
+  visibility: visible;
+}
+
+.is-dark {
+  background: rgba(0, 0, 0, 0.8);
+  visibility: visible;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.menu-icon > span {
+  background-color: black;
+  width: 30px;
+  height: 3px;
+  opacity: 100;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-icon.is-opened span:nth-child(1) {
+  animation: gatherAndRotateTop 0.4s ease-in-out forwards;
+}
+.menu-icon.is-opened span:nth-child(2) {
+  animation: fadeOut 0.4s ease-in-out forwards;
+}
+.menu-icon.is-opened span:nth-child(3) {
+  animation: gatherAndRotateBottom 0.4s ease-in-out forwards;
+}
+
+.menu-icon.is-closed span:nth-child(1) {
+  animation: gatherAndRotateTopReverse 0.4s ease-in-out forwards;
+}
+.menu-icon.is-closed span:nth-child(2) {
+  animation: fadeIn 0.4s ease-in-out forwards;
+}
+.menu-icon.is-closed span:nth-child(3) {
+  animation: gatherAndRotateBottomReverse 0.4s ease-in-out forwards;
+}
+
+@keyframes gatherAndRotateTop {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(11px) rotate(0);
+  }
+  100% {
+    transform: translateY(11px) rotate(45deg);
+  }
+}
+
+@keyframes gatherAndRotateBottom {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-11px) rotate(0);
+  }
+  100% {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes gatherAndRotateTopReverse {
+  0% {
+    transform: translateY(11px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(11px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes gatherAndRotateBottomReverse {
+  0% {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+  50% {
+    transform: translateY(-11px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}

@@ -46,6 +46,9 @@ Challenges from Frontend Mentor
 - [14 ContactFormMain](#14-contactformmain)
   - [14 Screenshot](#14-screenshot)
   - [14 Links](#14-links)
+- [15 NewsHomepage](#15-newshomepage)
+  - [15 Screenshot](#15-screenshot)
+  - [15 Links](#15-links)
 
 ## 01 QRcode
 
@@ -200,3 +203,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/14-ContactFormMain]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/14-ContactFormMain]
+
+## 15 NewsHomepage
+
+### 15 Screenshot
+
+![](./15-NewsHomepage/screenshot.png)
+
+### 15 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/15-NewsHomepage]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/15-NewsHomepage]

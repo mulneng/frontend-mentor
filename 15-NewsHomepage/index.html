@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>News homepage</title>
+  </head>
+  <body class="container">
+    <div class="mobile-menu-background">
+      <div class="mobile-menu-box">
+        <ul class="navbar-nav mobile-menu">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <head>
+      <nav class="navbar navbar-expand-md my-3" role="navigation">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.svg" alt="W Logo" width="48"
+          /></a>
+          <button
+            class="navbar-toggler"
+            id="navbar-toggler-icon"
+            type="button"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="menu-icon is-closed">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+          <div
+            class="justify-content-md-end collapse navbar-collapse"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </head>
+    <main class="container">
+      <section class="row">
+        <div class="col-md-8 my-3">
+          <div class="row">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/image-web-3-desktop.jpg"
+              />
+              <img
+                src="./images/image-web-3-mobile.jpg"
+                alt="Web 3.0 Concept Image"
+              />
+            </picture>
+          </div>
+          <div class="row pt-md-4">
+            <div class="col-md">
+              <h1 class="mt-2">The Bright Future of Web 3.0?</h1>
+            </div>
+            <div
+              class="mt-2 col-md d-flex flex-column justify-content-between d-md-block"
+            >
+              <p class="text-sub-dark">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a class="btn px-4 py-2" href="#" role="button">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-3">
+          <div class="container bg-dark h-100 pb-4 d-flex flex-column">
+            <h2 class="text-warning py-3">New</h2>
+            <div class="d-flex flex-column flex-grow-1 justify-content-between">
+              <article class="row">
+                <a class="news-title" href="#" role="link"
+                  >Hydrogen VS Electric Cars</a
+                >
+                <p class="text-sub-light">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </article>
+              <article class="row">
+                <a class="news-title" href="#" role="link"
+                  >The Downsides of AI Artistry</a
+                >
+                <p class="text-sub-light">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </article>
+              <article class="row">
+                <a class="news-title" href="#" role="link"
+                  >Is VC Funding Drying Up?</a
+                >
+                <p class="text-sub-light m-0">
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row my-3">
+        <article class="col-lg my-3">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="./images/image-retro-pcs.jpg"
+                alt="image-retro-pcs"
+                height="100%"
+              />
+            </div>
+            <div class="col-8">
+              <h3>01</h3>
+              <a class="article-title" href="#" role="link"
+                >Reviving Retro PCs</a
+              >
+              <p class="text-sub-dark m-0 pt-2">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-lg my-3">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="./images/image-top-laptops.jpg"
+                alt="image-top-laptops"
+                height="100%"
+              />
+            </div>
+            <div class="col-8">
+              <h3>02</h3>
+              <a class="article-title" href="#" role="link"
+                >Top 10 Laptops of 2022</a
+              >
+              <p class="text-sub-dark m-0 pt-2">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-lg my-3">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="./images/image-gaming-growth.jpg"
+                alt="image-gaming-growth"
+                height="100%"
+              />
+            </div>
+            <div class="col-8">
+              <h3>03</h3>
+              <a class="article-title" href="#" role="link"
+                >The Growth of Gaming</a
+              >
+              <p class="text-sub-dark m-0 pt-2">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <article></article>
+    <article></article>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Mobile Menu
+      $('#navbar-toggler-icon').on('click', function () {
+        if ($('.menu-icon').hasClass('is-opened')) {
+          $('.menu-icon').toggleClass('is-closed');
+          $('.menu-icon').toggleClass('is-opened');
+          $('#navbar-toggler-icon').attr('aria-expanded', 'false');
+        } else {
+          $('.menu-icon').toggleClass('is-closed');
+          $('.menu-icon').toggleClass('is-opened');
+          $('#navbar-toggler-icon').attr('aria-expanded', 'true');
+        }
+
+        $('.mobile-menu-box ').toggleClass('is-active');
+        $('.mobile-menu-background').toggleClass('is-dark');
+      });
+    </script>
+  </body>
+</html>
