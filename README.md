@@ -49,6 +49,9 @@ Challenges from Frontend Mentor
 - [15 NewsHomepage](#15-newshomepage)
   - [15 Screenshot](#15-screenshot)
   - [15 Links](#15-links)
+- [16 EcommerceProductPage](#16-ecommerceproductpage)
+  - [16 Screenshot](#16-screenshot)
+  - [16 Links](#16-links)
 
 ## 01 QRcode
 
@@ -214,3 +217,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/15-NewsHomepage]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/15-NewsHomepage]
+
+## 16 EcommerceProductPage
+
+### 16 Screenshot
+
+![](./16-EcommerceProductPage/screenshot.png)
+
+### 16 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/16-EcommerceProductPage]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/16-EcommerceProductPage]
