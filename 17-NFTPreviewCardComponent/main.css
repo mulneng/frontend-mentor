@@ -1,0 +1,353 @@
+/* CSS Reset_by Andy Bell 2023 */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with
+img,
+picture {
+  max-width: 100%;
+  display: block;
+} */
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Naming convention - BEM */
+
+body.page {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+  color: hsl(215, 51%, 70%);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 24rem;
+}
+
+.card__image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(178, 100%, 50%, 0.5);
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card__image-wrapper:hover .card__overlay {
+  opacity: 1;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 24px;
+  color: hsl(0, 0%, 100%);
+  margin-top: 16px;
+}
+
+.card__title--hoverable:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card__description {
+  margin-top: 16px;
+}
+
+.card__stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card__price,
+.card__time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card__price-value {
+  color: hsl(178, 100%, 50%);
+}
+
+.card__divider {
+  border-color: hsl(215, 32%, 27%);
+  margin-top: 16px;
+}
+
+.card__creator {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.card__avatar {
+  width: 32px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.card__creator-name--highlight {
+  color: hsl(0, 0%, 100%);
+}
+
+.card__creator-name--highlight:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+/* Naming convention - OOCSS */
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+}
+
+/* Color */
+.bg-main {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.bg-card {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.bg-cyan {
+  background-color: hsl(178, 100%, 50%);
+}
+
+.border-line {
+  border-color: hsl(215, 32%, 27%);
+}
+
+.color-white {
+  color: hsl(0, 0%, 100%);
+}
+
+.color-blue {
+  color: hsl(215, 51%, 70%);
+}
+
+.color-cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+/* Font */
+.font-bold {
+  font-weight: 600;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-title {
+  font-size: 24px;
+}
+
+.text-small {
+  font-size: 16px;
+}
+
+/* Element */
+
+.card {
+  width: 100%;
+  max-width: 24rem;
+  height: auto;
+}
+
+.img-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-icon {
+  width: auto;
+  height: auto;
+}
+
+.img-profile {
+  width: 32px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+/* Display */
+.align-center {
+  display: grid;
+  place-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.g-md {
+  gap: 8px;
+}
+
+.p-md {
+  padding: 24px;
+}
+
+.mt-md {
+  margin-top: 16px;
+}
+
+.rounded {
+  border-radius: 12px;
+}
+
+/* Hover */
+
+.hover-cyan:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.media-wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(178, 100%, 50%, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.media-wrapper:hover .img-overlay {
+  opacity: 1;
+}

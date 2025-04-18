@@ -52,6 +52,9 @@ Challenges from Frontend Mentor
 - [16 EcommerceProductPage](#16-ecommerceproductpage)
   - [16 Screenshot](#16-screenshot)
   - [16 Links](#16-links)
+- [17 NFTPreviewCardComponent](#17-nftpreviewcardcomponent)
+  - [17 Screenshot](#17-screenshot)
+  - [17 Links](#17-links)
 
 ## 01 QRcode
 
@@ -228,3 +231,14 @@ Challenges from Frontend Mentor
 
 - Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/16-EcommerceProductPage]
 - Live Site URL: [https://zeegu.github.io/frontend-mentor/16-EcommerceProductPage]
+
+## 17 NFTPreviewCardComponent
+
+### 17 Screenshot
+
+![](./17-NFTPreviewCardComponent/screenshot.png)
+
+### 17 Links
+
+- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/17-NFTPreviewCardComponent]
+- Live Site URL: [https://zeegu.github.io/frontend-mentor/17-NFTPreviewCardComponent]
