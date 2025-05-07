@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/frontend-mentor/18-test/vite-project/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Loopstudios landing page</title>
+    <script type="module" crossorigin src="/frontend-mentor/18-test/vite-project/assets/index-B11aznVB.js"></script>
+    <link rel="stylesheet" crossorigin href="/frontend-mentor/18-test/vite-project/assets/index-D9corOo_.css">
+  </head>
+  <body class="font-display">
+    <!-- Hero section wrapper -->
+    <div
+      class="relative h-screen bg-[url('/mobile/image-hero.jpg')] md:bg-[url('/desktop/image-hero.jpg')] bg-cover bg-center md:max-h-140"
+    >
+      <div
+        class="absolute inset-0 md:bg-black/20 md:backdrop-brightness-90 md:backdrop-saturate-70"
+      ></div>
+      <!-- Navbar -->
+      <nav class="absolute w-full z-50 bg-transparent">
+        <div class="navbar-layout flex justify-between items-center px-6 py-4">
+          <!-- Logo -->
+          <a
+            href="#"
+            class="logo text-white text-xl font-bold lowercase mt-2 md:mt-0"
+          >
+            loopstudios
+          </a>
+          <!-- Hamburger (Mobile Only) -->
+          <button
+            id="menu-open"
+            type="button"
+            class="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-100"
+            aria-controls="navbar-menu"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <!-- Navigation Menu (shared for mobile and desktop) -->
+          <ul
+            id="navbar-menu"
+            class="text-xl uppercase fixed top-0 left-0 w-full h-full bg-black text-white z-40 hidden transform -translate-x-full transition-transform duration-500 ease-in-out flex-col px-6 py-4 md:static md:flex md:h-auto md:w-auto md:translate-x-0 md:bg-transparent md:text-base md:capitalize md:flex-row md:space-x-8"
+          >
+            <div class="flex justify-between items-center w-full md:hidden">
+              <a
+                href="#"
+                class="logo text-white text-xl font-bold lowercase mt-2 md:mt-0"
+              >
+                loopstudios
+              </a>
+              <button
+                id="menu-close"
+                type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-100"
+              >
+                <span class="sr-only">Close main menu</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="h-screen flex-1 flex flex-col justify-center items-start md:flex-row md:justify-end md:items-center md:gap-6 md:h-0"
+            >
+              <li>
+                <a href="#" class="navbar-menu">About</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-menu">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-menu">Events</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-menu">Products</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-menu">Support</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+      <!-- Hero content -->
+      <div
+        class="absolute inset-0 flex items-center justify-center text-white h-full md:h-auto md:justify-start max-w-screen-lg mx-auto"
+      >
+        <div class="px-6 max-w-sm md:max-w-xl">
+          <p
+            class="text-4xl font-light border-2 p-6 uppercase md:text-6xl md:p-8"
+          >
+            Immersive experiences that deliver
+          </p>
+        </div>
+      </div>
+    </div>
+    <main class="px-4 my-20 max-w-screen-lg mx-auto">
+      <!-- Intro section -->
+      <div class="relative md:flex md:items-center mb-10">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="/frontend-mentor/18-test/vite-project/desktop/image-interactive.jpg"
+          />
+          <img
+            src="/frontend-mentor/18-test/vite-project/mobile/image-interactive.jpg"
+            alt="image of using vr headset"
+            class="w-full md:w-2xl"
+          />
+        </picture>
+        <div
+          class="bg-white p-6 text-center md:p-0 md:pl-14 md:pt-12 md:absolute md:right-0 md:-bottom-0.5 md:w-md"
+        >
+          <h1>The leader in interactive VR</h1>
+          <p
+            class="text-xs text-center text-gray-500 mt-3 md:text-start md:pr-10"
+          >
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+      <!-- Article section -->
+      <div class="md:my-30">
+        <!-- Header -->
+        <div class="md:flex md:justify-between">
+          <h1>Our creations</h1>
+          <button
+            href="#"
+            class="hidden md:inline-block px-6 py-2 border-1 border-black text-xs tracking-[0.5em] text-center text-black uppercase font-point hover:bg-black hover:text-white"
+          >
+            See all
+          </button>
+        </div>
+        <!-- Images grid -->
+        <div class="my-6 md-card-list">
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-deep-earth.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-deep-earth.jpg"
+                alt="card image"
+              />
+            </picture>
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>Deep earth</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-night-arcade.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-night-arcade.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>Night arcade</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-soccer-team.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-soccer-team.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>Soccer team VR</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-grid.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-grid.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>The grid</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-from-above.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-from-above.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>From up above VR</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-pocket-borealis.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-pocket-borealis.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>Pocket borealis</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-curiosity.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-curiosity.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>The curiosity</h2>
+            </div>
+          </a>
+          <!-- Card -->
+          <a href="#" class="group card-wrapper">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/frontend-mentor/18-test/vite-project/desktop/image-fisheye.jpg"
+              />
+              <img
+                class="card-image"
+                src="/frontend-mentor/18-test/vite-project/mobile/image-fisheye.jpg"
+                alt="card image"
+              />
+            </picture>
+
+            <div class="card-overlay"></div>
+            <div class="card-text">
+              <h2>Make it fisheye</h2>
+            </div>
+          </a>
+        </div>
+        <!-- Button shown only on mobile -->
+        <div class="flex justify-center md:hidden">
+          <button
+            href="#"
+            class="px-6 py-2 border-1 border-black text-xs tracking-[0.5em] text-center text-black uppercase font-point hover:bg-black hover:text-white"
+          >
+            See all
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-white dark:bg-gray-900 w-full max-w-screen-xl mx-auto md:py-8"
+    >
+      <div
+        class="flex flex-col items-center justify-between px-4 max-w-screen-lg mx-auto md:flex-row md:flex-wrap"
+      >
+        <div
+          id="footer-logo"
+          class="flex items-center justify-center my-6 space-x-3 rtl:space-x-reverse md:order-1 md:basis-1/2 md:justify-start md:my-0"
+        >
+          <a href="#">
+            <span class="logo">loopstudios</span>
+          </a>
+        </div>
+        <div id="footer-menu" class="md:order-3 md:basis-1/2">
+          <ul
+            class="flex flex-col flex-wrap gap-4 items-center text-center text-xs font-regular text-white md:flex-row md:m-0"
+          >
+            <li>
+              <a href="#" class="footer-menu">About</a>
+            </li>
+            <li>
+              <a href="#" class="footer-menu">Careers</a>
+            </li>
+            <li>
+              <a href="#" class="footer-menu">Events</a>
+            </li>
+            <li>
+              <a href="#" class="footer-menu">Products</a>
+            </li>
+            <li>
+              <a href="#" class="footer-menu">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          id="footer-icon"
+          class="flex flex-wrap justify-center gap-4 mt-8 md:order-2 md:m-0 md:basis-1/2 md:justify-end"
+        >
+          <a href="#" class="sns-icon">
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 8 19"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="sr-only">Facebook page</span>
+          </a>
+          <a href="#" class="sns-icon">
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 21 16"
+            >
+              <path
+                d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"
+              />
+            </svg>
+            <span class="sr-only">Discord community</span>
+          </a>
+          <a href="#" class="sns-icon">
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 17"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="sr-only">Twitter page</span>
+          </a>
+          <a href="#" class="sns-icon">
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="sr-only">GitHub account</span>
+          </a>
+        </div>
+        <div
+          id="footer-copyright"
+          class="block text-xs text-gray-400 text-center my-5 md:order-4 md:basis-1/2 md:text-end md:text-sm"
+        >
+          <a href="https://flowbite.com/" class="hover:underline"
+            >© 2021 Loopstudios. All rights reserved.</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
