@@ -19,8 +19,8 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/18-Loopstudios]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/18-Loopstudios]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/18-Loopstudios]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/18-Loopstudios]
 
 ## My process
 

@@ -19,8 +19,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/03-SocialLinksProfile]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/03-SocialLinksProfile/]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/03-SocialLinksProfile]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/03-SocialLinksProfile/]
 
 ## My process
 

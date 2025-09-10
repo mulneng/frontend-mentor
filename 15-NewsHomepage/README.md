@@ -19,8 +19,8 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/15-NewsHomepage]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/15-NewsHomepage]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/15-NewsHomepage]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/15-NewsHomepage]
 
 ## My process
 

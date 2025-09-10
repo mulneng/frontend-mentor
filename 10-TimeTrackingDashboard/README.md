@@ -19,8 +19,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/10-TimeTrackingDashboard]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/10-TimeTrackingDashboard]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/10-TimeTrackingDashboard]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/10-TimeTrackingDashboard]
 
 ## My process
 

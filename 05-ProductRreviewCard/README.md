@@ -19,8 +19,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/05-ProductPreviewCard]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/05-ProductPreviewCard/]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/05-ProductPreviewCard]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/05-ProductPreviewCard/]
 
 ## My process
 

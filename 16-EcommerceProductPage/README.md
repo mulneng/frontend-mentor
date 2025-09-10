@@ -19,8 +19,8 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/16-EcommerceProductPage]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/16-EcommerceProductPage]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/16-EcommerceProductPage]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/16-EcommerceProductPage]
 
 ## My process
 

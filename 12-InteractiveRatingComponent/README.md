@@ -19,8 +19,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/12-InteractiveRatingComponent]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/12-InteractiveRatingComponent]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/12-InteractiveRatingComponent]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/12-InteractiveRatingComponent]
 
 ## My process
 

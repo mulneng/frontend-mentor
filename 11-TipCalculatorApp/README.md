@@ -19,8 +19,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/11-TipCalculatorApp]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/11-TipCalculatorApp]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/11-TipCalculatorApp]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/11-TipCalculatorApp]
 
 ## My process
 

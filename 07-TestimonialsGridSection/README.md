@@ -19,8 +19,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/07-TestimonialsGridSection]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/07-TestimonialsGridSection]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/07-TestimonialsGridSection]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/07-TestimonialsGridSection]
 
 ## My process
 

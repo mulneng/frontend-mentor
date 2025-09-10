@@ -19,8 +19,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/08-ArticlePreviewComponent]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/08-ArticlePreviewComponent]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/08-ArticlePreviewComponent]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/08-ArticlePreviewComponent]
 
 ## My process
 

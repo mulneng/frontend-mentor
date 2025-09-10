@@ -19,8 +19,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/06-FourCardFeatureSection]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/06-FourCardFeatureSection]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/06-FourCardFeatureSection]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/06-FourCardFeatureSection]
 
 ## My process
 

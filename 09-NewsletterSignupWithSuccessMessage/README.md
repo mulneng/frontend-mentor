@@ -19,8 +19,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [https://github.com/zeegu/frontend-mentor/tree/main/09-NewsletterSignupWithSuccessMessage]
-- Live Site URL: [https://zeegu.github.io/frontend-mentor/09-NewsletterSignupWithSuccessMessage]
+- Solution URL: [https://github.com/mulneng/frontend-mentor/tree/main/09-NewsletterSignupWithSuccessMessage]
+- Live Site URL: [https://mulneng.github.io/frontend-mentor/09-NewsletterSignupWithSuccessMessage]
 
 ## My process
 
